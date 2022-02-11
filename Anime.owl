@@ -16,52 +16,10 @@
         <Class IRI="#Anime"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AnimeParts"/>
+        <Class IRI="#AnimeDetails"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Demographic"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Demons"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Harem"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Historical"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Josei"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Manga"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Military"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Mixed_media"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Music"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Police"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Samurai"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#School"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Seinen"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Shoujo"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Shounen"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Source"/>
@@ -70,22 +28,7 @@
         <Class IRI="#Studio"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Super_Power"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Themse"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Vampire"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#game"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#novel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#original"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasDemographic"/>
@@ -100,7 +43,10 @@
         <ObjectProperty IRI="#hasThemes"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#A.C.G.T."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Akatsuki"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Akebi-chan_no_Sailor-fuku"/>
@@ -109,19 +55,70 @@
         <NamedIndividual IRI="#Arifureta_Shokugyou_de_Sekai_Saikyou_2nd_Season"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Asahi_Production"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Baraou_no_Souretsu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CloverWorks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Connect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CygamesPictures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Demons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diomedéa"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Fantasy_Bishoujo_Juniku_Ojisan_to"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Felix_Film"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GA-CREW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GEEK_TOYS"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Genjitsu_Shugi_Yuusha_no_Oukoku_Saikenki_Part_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Graphinica"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Hairpin_Double"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Harem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Historical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ILCA"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Irodorimidori"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#J.C.Staff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jinnan_Studio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Josei"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Kaijin_Kaihatsu-bu_no_Kuroitsu-san"/>
@@ -133,19 +130,85 @@
         <NamedIndividual IRI="#Kenja_no_Deshi_wo_Nanoru_Kenja"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Kigumi"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Koroshi_Ai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LIDENFILMS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lapin_Track"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Leadale_no_Daichi_nite"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#MAPPA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Madhouse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maho_Film"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Military"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mixed_media"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NoneSource"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OLM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OLM_Team_Yoshioka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OZ"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Orient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Platinum_Vision"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Police"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quad"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Sabikui_Bisco"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Samurai"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Sasaki_to_Miyano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#School"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Seinen"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Shenmue_the_Animation"/>
@@ -154,13 +217,37 @@
         <NamedIndividual IRI="#Shikkakumon_no_Saikyou_Kenja"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Shin-Ei_Animation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shoujo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shounen"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Slow_Loop"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Sono_Bisque_Doll_wa_Koi_wo_Suru"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Space_Neko_Company"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Studio_A-CAT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Studio_Deen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Power"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Teikou_Penguin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Telecom_Animation_Film"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Tensai_Ouji_no_Akaji_Kokka_Saisei_Jutsu"/>
@@ -172,10 +259,37 @@
         <NamedIndividual IRI="#Tribe_Nine"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Unknown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vampire"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Vanitas_no_Karte_Part_2"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Yami_Shibai_10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yokohama_Animation_Lab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yumeta_Company"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#asread"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#game"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#novel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#original"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ufotable"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Atasha_Kawajiri_Kodama_Da_yo:_Dangerous_Lifehacker_no_Tadareta_Seikatsu"/>
@@ -227,96 +341,28 @@
     </Declaration>
     <SubClassOf>
         <Class IRI="#Demographic"/>
-        <Class IRI="#AnimeParts"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Demons"/>
-        <Class IRI="#Themse"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Harem"/>
-        <Class IRI="#Themse"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Historical"/>
-        <Class IRI="#Themse"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Josei"/>
-        <Class IRI="#Demographic"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Manga"/>
-        <Class IRI="#Source"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Military"/>
-        <Class IRI="#Themse"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Mixed_media"/>
-        <Class IRI="#Source"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Music"/>
-        <Class IRI="#Themse"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Police"/>
-        <Class IRI="#Themse"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Samurai"/>
-        <Class IRI="#Themse"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#School"/>
-        <Class IRI="#Themse"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Seinen"/>
-        <Class IRI="#Demographic"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Shoujo"/>
-        <Class IRI="#Demographic"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Shounen"/>
-        <Class IRI="#Demographic"/>
+        <Class IRI="#AnimeDetails"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Source"/>
-        <Class IRI="#AnimeParts"/>
+        <Class IRI="#AnimeDetails"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Studio"/>
-        <Class IRI="#AnimeParts"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Super_Power"/>
-        <Class IRI="#Themse"/>
+        <Class IRI="#AnimeDetails"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Themse"/>
-        <Class IRI="#AnimeParts"/>
+        <Class IRI="#AnimeDetails"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vampire"/>
-        <Class IRI="#Themse"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#game"/>
-        <Class IRI="#Source"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#novel"/>
-        <Class IRI="#Source"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#original"/>
-        <Class IRI="#Source"/>
-    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#A.C.G.T."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Akatsuki"/>
+    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Akebi-chan_no_Sailor-fuku"/>
@@ -326,24 +372,92 @@
         <NamedIndividual IRI="#Arifureta_Shokugyou_de_Sekai_Saikyou_2nd_Season"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Asahi_Production"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Baraou_no_Souretsu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Bones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#CloverWorks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Connect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#CygamesPictures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Themse"/>
+        <NamedIndividual IRI="#Demons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Diomedéa"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Fantasy_Bishoujo_Juniku_Ojisan_to"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Felix_Film"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#GA-CREW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#GEEK_TOYS"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Genjitsu_Shugi_Yuusha_no_Oukoku_Saikenki_Part_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Graphinica"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Hairpin_Double"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Themse"/>
+        <NamedIndividual IRI="#Harem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Themse"/>
+        <NamedIndividual IRI="#Historical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#ILCA"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Irodorimidori"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#J.C.Staff"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Jinnan_Studio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Demographic"/>
+        <NamedIndividual IRI="#Josei"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Anime"/>
@@ -358,24 +472,112 @@
         <NamedIndividual IRI="#Kenja_no_Deshi_wo_Nanoru_Kenja"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Kigumi"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Koroshi_Ai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#LIDENFILMS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Lapin_Track"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Leadale_no_Daichi_nite"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#MAPPA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Madhouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Maho_Film"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Source"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Themse"/>
+        <NamedIndividual IRI="#Military"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Source"/>
+        <NamedIndividual IRI="#Mixed_media"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Themse"/>
+        <NamedIndividual IRI="#Music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Demographic"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Source"/>
+        <NamedIndividual IRI="#NoneSource"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Themse"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#OLM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#OLM_Team_Yoshioka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#OZ"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Orient"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Platinum_Vision"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Themse"/>
+        <NamedIndividual IRI="#Police"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Quad"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Sabikui_Bisco"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Themse"/>
+        <NamedIndividual IRI="#Samurai"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Sasaki_to_Miyano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Themse"/>
+        <NamedIndividual IRI="#School"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Demographic"/>
+        <NamedIndividual IRI="#Seinen"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Anime"/>
@@ -386,6 +588,18 @@
         <NamedIndividual IRI="#Shikkakumon_no_Saikyou_Kenja"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Shin-Ei_Animation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Demographic"/>
+        <NamedIndividual IRI="#Shoujo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Demographic"/>
+        <NamedIndividual IRI="#Shounen"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Slow_Loop"/>
     </ClassAssertion>
@@ -394,8 +608,28 @@
         <NamedIndividual IRI="#Sono_Bisque_Doll_wa_Koi_wo_Suru"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Space_Neko_Company"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Studio_A-CAT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Studio_Deen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Themse"/>
+        <NamedIndividual IRI="#Super_Power"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Teikou_Penguin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Telecom_Animation_Film"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Anime"/>
@@ -410,12 +644,48 @@
         <NamedIndividual IRI="#Tribe_Nine"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Unknown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Themse"/>
+        <NamedIndividual IRI="#Vampire"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Vanitas_no_Karte_Part_2"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Yami_Shibai_10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Yokohama_Animation_Lab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#Yumeta_Company"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#asread"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Source"/>
+        <NamedIndividual IRI="#game"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Source"/>
+        <NamedIndividual IRI="#novel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Source"/>
+        <NamedIndividual IRI="#original"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studio"/>
+        <NamedIndividual IRI="#ufotable"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Anime"/>
@@ -481,6 +751,861 @@
         <Class IRI="#Anime"/>
         <NamedIndividual IRI="#Shingeki_no_Kyojin:_The_Final_Season_Part_2"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Akebi-chan_no_Sailor-fuku"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Akebi-chan_no_Sailor-fuku"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Akebi-chan_no_Sailor-fuku"/>
+        <NamedIndividual IRI="#CloverWorks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Akebi-chan_no_Sailor-fuku"/>
+        <NamedIndividual IRI="#School"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Arifureta_Shokugyou_de_Sekai_Saikyou_2nd_Season"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Arifureta_Shokugyou_de_Sekai_Saikyou_2nd_Season"/>
+        <NamedIndividual IRI="#novel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Arifureta_Shokugyou_de_Sekai_Saikyou_2nd_Season"/>
+        <NamedIndividual IRI="#asread"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Arifureta_Shokugyou_de_Sekai_Saikyou_2nd_Season"/>
+        <NamedIndividual IRI="#Harem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Baraou_no_Souretsu"/>
+        <NamedIndividual IRI="#Shoujo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Baraou_no_Souretsu"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Baraou_no_Souretsu"/>
+        <NamedIndividual IRI="#J.C.Staff"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Baraou_no_Souretsu"/>
+        <NamedIndividual IRI="#Historical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Fantasy_Bishoujo_Juniku_Ojisan_to"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Fantasy_Bishoujo_Juniku_Ojisan_to"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Fantasy_Bishoujo_Juniku_Ojisan_to"/>
+        <NamedIndividual IRI="#OLM_Team_Yoshioka"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Fantasy_Bishoujo_Juniku_Ojisan_to"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Genjitsu_Shugi_Yuusha_no_Oukoku_Saikenki_Part_2"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Genjitsu_Shugi_Yuusha_no_Oukoku_Saikenki_Part_2"/>
+        <NamedIndividual IRI="#novel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Genjitsu_Shugi_Yuusha_no_Oukoku_Saikenki_Part_2"/>
+        <NamedIndividual IRI="#J.C.Staff"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Genjitsu_Shugi_Yuusha_no_Oukoku_Saikenki_Part_2"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Hairpin_Double"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Hairpin_Double"/>
+        <NamedIndividual IRI="#Mixed_media"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Hairpin_Double"/>
+        <NamedIndividual IRI="#Felix_Film"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Hairpin_Double"/>
+        <NamedIndividual IRI="#Music"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Irodorimidori"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Irodorimidori"/>
+        <NamedIndividual IRI="#game"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Irodorimidori"/>
+        <NamedIndividual IRI="#Akatsuki"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Irodorimidori"/>
+        <NamedIndividual IRI="#Music"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Kaijin_Kaihatsu-bu_no_Kuroitsu-san"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Kaijin_Kaihatsu-bu_no_Kuroitsu-san"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Kaijin_Kaihatsu-bu_no_Kuroitsu-san"/>
+        <NamedIndividual IRI="#Quad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Kaijin_Kaihatsu-bu_no_Kuroitsu-san"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Karakai_Jouzu_no_Takagi-san_3"/>
+        <NamedIndividual IRI="#Shounen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Karakai_Jouzu_no_Takagi-san_3"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Karakai_Jouzu_no_Takagi-san_3"/>
+        <NamedIndividual IRI="#Shin-Ei_Animation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Karakai_Jouzu_no_Takagi-san_3"/>
+        <NamedIndividual IRI="#School"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Kenja_no_Deshi_wo_Nanoru_Kenja"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Kenja_no_Deshi_wo_Nanoru_Kenja"/>
+        <NamedIndividual IRI="#novel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Kenja_no_Deshi_wo_Nanoru_Kenja"/>
+        <NamedIndividual IRI="#Studio_A-CAT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Kenja_no_Deshi_wo_Nanoru_Kenja"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Koroshi_Ai"/>
+        <NamedIndividual IRI="#Josei"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Koroshi_Ai"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Koroshi_Ai"/>
+        <NamedIndividual IRI="#Platinum_Vision"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Koroshi_Ai"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Leadale_no_Daichi_nite"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Leadale_no_Daichi_nite"/>
+        <NamedIndividual IRI="#novel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Leadale_no_Daichi_nite"/>
+        <NamedIndividual IRI="#Maho_Film"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Leadale_no_Daichi_nite"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Orient"/>
+        <NamedIndividual IRI="#Shounen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Orient"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Orient"/>
+        <NamedIndividual IRI="#A.C.G.T."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Orient"/>
+        <NamedIndividual IRI="#Demons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Orient"/>
+        <NamedIndividual IRI="#Historical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Orient"/>
+        <NamedIndividual IRI="#Samurai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Sabikui_Bisco"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Sabikui_Bisco"/>
+        <NamedIndividual IRI="#novel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Sabikui_Bisco"/>
+        <NamedIndividual IRI="#OZ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Sabikui_Bisco"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Sasaki_to_Miyano"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Sasaki_to_Miyano"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Sasaki_to_Miyano"/>
+        <NamedIndividual IRI="#Studio_Deen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Sasaki_to_Miyano"/>
+        <NamedIndividual IRI="#School"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Shenmue_the_Animation"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Shenmue_the_Animation"/>
+        <NamedIndividual IRI="#game"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Shenmue_the_Animation"/>
+        <NamedIndividual IRI="#Telecom_Animation_Film"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Shenmue_the_Animation"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Shikkakumon_no_Saikyou_Kenja"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Shikkakumon_no_Saikyou_Kenja"/>
+        <NamedIndividual IRI="#novel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Shikkakumon_no_Saikyou_Kenja"/>
+        <NamedIndividual IRI="#J.C.Staff"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Shikkakumon_no_Saikyou_Kenja"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Slow_Loop"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Slow_Loop"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Slow_Loop"/>
+        <NamedIndividual IRI="#Connect"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Slow_Loop"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Sono_Bisque_Doll_wa_Koi_wo_Suru"/>
+        <NamedIndividual IRI="#Seinen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Sono_Bisque_Doll_wa_Koi_wo_Suru"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Sono_Bisque_Doll_wa_Koi_wo_Suru"/>
+        <NamedIndividual IRI="#CloverWorks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Sono_Bisque_Doll_wa_Koi_wo_Suru"/>
+        <NamedIndividual IRI="#School"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Teikou_Penguin"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Teikou_Penguin"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Teikou_Penguin"/>
+        <NamedIndividual IRI="#Unknown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Teikou_Penguin"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Tensai_Ouji_no_Akaji_Kokka_Saisei_Jutsu"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Tensai_Ouji_no_Akaji_Kokka_Saisei_Jutsu"/>
+        <NamedIndividual IRI="#novel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Tensai_Ouji_no_Akaji_Kokka_Saisei_Jutsu"/>
+        <NamedIndividual IRI="#Yokohama_Animation_Lab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Tensai_Ouji_no_Akaji_Kokka_Saisei_Jutsu"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Tokyo_24-ku"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Tokyo_24-ku"/>
+        <NamedIndividual IRI="#original"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Tokyo_24-ku"/>
+        <NamedIndividual IRI="#CloverWorks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Tokyo_24-ku"/>
+        <NamedIndividual IRI="#Super_Power"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Tribe_Nine"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Tribe_Nine"/>
+        <NamedIndividual IRI="#Mixed_media"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Tribe_Nine"/>
+        <NamedIndividual IRI="#LIDENFILMS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Tribe_Nine"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Vanitas_no_Karte_Part_2"/>
+        <NamedIndividual IRI="#Shounen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Vanitas_no_Karte_Part_2"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Vanitas_no_Karte_Part_2"/>
+        <NamedIndividual IRI="#Bones"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Vanitas_no_Karte_Part_2"/>
+        <NamedIndividual IRI="#Historical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Vanitas_no_Karte_Part_2"/>
+        <NamedIndividual IRI="#Vampire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Yami_Shibai_10"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Yami_Shibai_10"/>
+        <NamedIndividual IRI="#original"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Yami_Shibai_10"/>
+        <NamedIndividual IRI="#ILCA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Yami_Shibai_10"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Atasha_Kawajiri_Kodama_Da_yo:_Dangerous_Lifehacker_no_Tadareta_Seikatsu"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Atasha_Kawajiri_Kodama_Da_yo:_Dangerous_Lifehacker_no_Tadareta_Seikatsu"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Atasha_Kawajiri_Kodama_Da_yo:_Dangerous_Lifehacker_no_Tadareta_Seikatsu"/>
+        <NamedIndividual IRI="#Lapin_Track"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Atasha_Kawajiri_Kodama_Da_yo:_Dangerous_Lifehacker_no_Tadareta_Seikatsu"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Cue!"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Cue!"/>
+        <NamedIndividual IRI="#game"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Cue!"/>
+        <NamedIndividual IRI="#Graphinica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Cue!"/>
+        <NamedIndividual IRI="#Music"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Delicious_Party♡Precure"/>
+        <NamedIndividual IRI="#Shoujo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Delicious_Party♡Precure"/>
+        <NamedIndividual IRI="#original"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Delicious_Party♡Precure"/>
+        <NamedIndividual IRI="#Unknown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Delicious_Party♡Precure"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Dolls&apos;_Frontline"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Dolls&apos;_Frontline"/>
+        <NamedIndividual IRI="#game"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Dolls&apos;_Frontline"/>
+        <NamedIndividual IRI="#Asahi_Production"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Dolls&apos;_Frontline"/>
+        <NamedIndividual IRI="#Military"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Futsal_Boys!!!!!"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Futsal_Boys!!!!!"/>
+        <NamedIndividual IRI="#Mixed_media"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Futsal_Boys!!!!!"/>
+        <NamedIndividual IRI="#Diomedéa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Futsal_Boys!!!!!"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Garugaku._II:_Lucky_Stars"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Garugaku._II:_Lucky_Stars"/>
+        <NamedIndividual IRI="#game"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Garugaku._II:_Lucky_Stars"/>
+        <NamedIndividual IRI="#OLM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Garugaku._II:_Lucky_Stars"/>
+        <NamedIndividual IRI="#Music"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Garugaku._II:_Lucky_Stars"/>
+        <NamedIndividual IRI="#School"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Gensou_Sangokushi:_Tengen_Reishinki"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Gensou_Sangokushi:_Tengen_Reishinki"/>
+        <NamedIndividual IRI="#game"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Gensou_Sangokushi:_Tengen_Reishinki"/>
+        <NamedIndividual IRI="#GEEK_TOYS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Gensou_Sangokushi:_Tengen_Reishinki"/>
+        <NamedIndividual IRI="#Historical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Hakozume:_Kouban_Joshi_no_Gyakushuu"/>
+        <NamedIndividual IRI="#Seinen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Hakozume:_Kouban_Joshi_no_Gyakushuu"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Hakozume:_Kouban_Joshi_no_Gyakushuu"/>
+        <NamedIndividual IRI="#Madhouse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Hakozume:_Kouban_Joshi_no_Gyakushuu"/>
+        <NamedIndividual IRI="#Police"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Kimetsu_no_Yaiba:_Yuukaku-hen"/>
+        <NamedIndividual IRI="#Shounen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Kimetsu_no_Yaiba:_Yuukaku-hen"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Kimetsu_no_Yaiba:_Yuukaku-hen"/>
+        <NamedIndividual IRI="#ufotable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Kimetsu_no_Yaiba:_Yuukaku-hen"/>
+        <NamedIndividual IRI="#Demons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Kimetsu_no_Yaiba:_Yuukaku-hen"/>
+        <NamedIndividual IRI="#Historical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Ninjala_(TV)"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Ninjala_(TV)"/>
+        <NamedIndividual IRI="#game"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Ninjala_(TV)"/>
+        <NamedIndividual IRI="#OLM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Ninjala_(TV)"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#On_Air_Dekinai!"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#On_Air_Dekinai!"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#On_Air_Dekinai!"/>
+        <NamedIndividual IRI="#Jinnan_Studio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#On_Air_Dekinai!"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Princess_Connect!_Re:Dive_Season_2"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Princess_Connect!_Re:Dive_Season_2"/>
+        <NamedIndividual IRI="#game"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Princess_Connect!_Re:Dive_Season_2"/>
+        <NamedIndividual IRI="#CygamesPictures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Princess_Connect!_Re:Dive_Season_2"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Ryman&apos;s_Club"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Ryman&apos;s_Club"/>
+        <NamedIndividual IRI="#original"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Ryman&apos;s_Club"/>
+        <NamedIndividual IRI="#LIDENFILMS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Ryman&apos;s_Club"/>
+        <NamedIndividual IRI="#NoneThemse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Sabiiro_no_Armor:_Reimei"/>
+        <NamedIndividual IRI="#NoneDemograpic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Sabiiro_no_Armor:_Reimei"/>
+        <NamedIndividual IRI="#Mixed_media"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Sabiiro_no_Armor:_Reimei"/>
+        <NamedIndividual IRI="#Kigumi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Sabiiro_no_Armor:_Reimei"/>
+        <NamedIndividual IRI="#Historical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Sabiiro_no_Armor:_Reimei"/>
+        <NamedIndividual IRI="#Samurai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Saiyuuki_Reload:_Zeroin"/>
+        <NamedIndividual IRI="#Josei"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Saiyuuki_Reload:_Zeroin"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Saiyuuki_Reload:_Zeroin"/>
+        <NamedIndividual IRI="#LIDENFILMS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Saiyuuki_Reload:_Zeroin"/>
+        <NamedIndividual IRI="#Demons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <NamedIndividual IRI="#Shingeki_no_Kyojin:_The_Final_Season_Part_2"/>
+        <NamedIndividual IRI="#Shounen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#Shingeki_no_Kyojin:_The_Final_Season_Part_2"/>
+        <NamedIndividual IRI="#Manga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStudio"/>
+        <NamedIndividual IRI="#Shingeki_no_Kyojin:_The_Final_Season_Part_2"/>
+        <NamedIndividual IRI="#MAPPA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Shingeki_no_Kyojin:_The_Final_Season_Part_2"/>
+        <NamedIndividual IRI="#Military"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasThemes"/>
+        <NamedIndividual IRI="#Shingeki_no_Kyojin:_The_Final_Season_Part_2"/>
+        <NamedIndividual IRI="#Super_Power"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasDemographic"/>
         <Class IRI="#Anime"/>
@@ -495,10 +1620,6 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasThemes"/>
-        <Class IRI="#Anime"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasTitle"/>
         <Class IRI="#Anime"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
@@ -517,6 +1638,16 @@
         <ObjectProperty IRI="#hasThemes"/>
         <Class IRI="#Themse"/>
     </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#A.C.G.T.</IRI>
+        <Literal>A.C.G.T.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Akatsuki</IRI>
+        <Literal>Akatsuki</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Akebi-chan_no_Sailor-fuku</IRI>
@@ -529,8 +1660,43 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Asahi_Production</IRI>
+        <Literal>Asahi Production</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Baraou_no_Souretsu</IRI>
         <Literal>Baraou no Souretsu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bones</IRI>
+        <Literal>Bones</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CloverWorks</IRI>
+        <Literal>CloverWorks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Connect</IRI>
+        <Literal>Connect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CygamesPictures</IRI>
+        <Literal>CygamesPictures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Demons</IRI>
+        <Literal>Demons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Diomedéa</IRI>
+        <Literal>Diomedéa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -539,8 +1705,28 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Felix_Film</IRI>
+        <Literal>Felix Film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GA-CREW</IRI>
+        <Literal>GA-CREW</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GEEK_TOYS</IRI>
+        <Literal>GEEK TOYS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Genjitsu_Shugi_Yuusha_no_Oukoku_Saikenki_Part_2</IRI>
         <Literal>Genjitsu Shugi Yuusha no Oukoku Saikenki Part 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Graphinica</IRI>
+        <Literal>Graphinica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -549,8 +1735,38 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Harem</IRI>
+        <Literal>Harem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Historical</IRI>
+        <Literal>Historical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ILCA</IRI>
+        <Literal>ILCA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Irodorimidori</IRI>
         <Literal>Irodorimidori</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#J.C.Staff</IRI>
+        <Literal>J.C.Staff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Jinnan_Studio</IRI>
+        <Literal>Jinnan Studio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Josei</IRI>
+        <Literal>Josei</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -569,8 +1785,23 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kigumi</IRI>
+        <Literal>Kigumi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Koroshi_Ai</IRI>
         <Literal>Koroshi Ai</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LIDENFILMS</IRI>
+        <Literal>LIDENFILMS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lapin_Track</IRI>
+        <Literal>Lapin Track</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -579,8 +1810,88 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MAPPA</IRI>
+        <Literal>MAPPA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Madhouse</IRI>
+        <Literal>Madhouse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Maho_Film</IRI>
+        <Literal>Maho Film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Manga</IRI>
+        <Literal>Manga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Military</IRI>
+        <Literal>Military</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mixed_media</IRI>
+        <Literal>Mixed media</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Music</IRI>
+        <Literal>Music</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NoneDemograpic</IRI>
+        <Literal>NoneDemograpic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NoneSource</IRI>
+        <Literal>NoneSource</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NoneThemse</IRI>
+        <Literal>NoneThemse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OLM</IRI>
+        <Literal>OLM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OLM_Team_Yoshioka</IRI>
+        <Literal>OLM Team Yoshioka</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OZ</IRI>
+        <Literal>OZ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Orient</IRI>
         <Literal>Orient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Platinum_Vision</IRI>
+        <Literal>Platinum Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Police</IRI>
+        <Literal>Police</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Quad</IRI>
+        <Literal>Quad</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -589,8 +1900,23 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Samurai</IRI>
+        <Literal>Samurai</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Sasaki_to_Miyano</IRI>
         <Literal>Sasaki to Miyano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#School</IRI>
+        <Literal>School</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Seinen</IRI>
+        <Literal>Seinen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -604,6 +1930,21 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Shin-Ei_Animation</IRI>
+        <Literal>Shin-Ei Animation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Shoujo</IRI>
+        <Literal>Shoujo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Shounen</IRI>
+        <Literal>Shounen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Slow_Loop</IRI>
         <Literal>Slow Loop</Literal>
     </AnnotationAssertion>
@@ -614,8 +1955,33 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Space_Neko_Company</IRI>
+        <Literal>Space Neko Company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Studio_A-CAT</IRI>
+        <Literal>Studio A-CAT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Studio_Deen</IRI>
+        <Literal>Studio Deen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Super_Power</IRI>
+        <Literal>Super Power</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Teikou_Penguin</IRI>
         <Literal>Teikou Penguin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Telecom_Animation_Film</IRI>
+        <Literal>Telecom Animation Film</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -634,6 +2000,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Unknown</IRI>
+        <Literal>Unknown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Vampire</IRI>
+        <Literal>Vampire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Vanitas_no_Karte_Part_2</IRI>
         <Literal>Vanitas no Karte Part 2</Literal>
     </AnnotationAssertion>
@@ -641,6 +2017,41 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Yami_Shibai_10</IRI>
         <Literal>Yami Shibai 10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Yokohama_Animation_Lab</IRI>
+        <Literal>Yokohama Animation Lab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Yumeta_Company</IRI>
+        <Literal>Yumeta Company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#asread</IRI>
+        <Literal>asread</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#game</IRI>
+        <Literal>game</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#novel</IRI>
+        <Literal>novel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#original</IRI>
+        <Literal>original</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ufotable</IRI>
+        <Literal>ufotable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
