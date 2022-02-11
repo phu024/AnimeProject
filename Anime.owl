@@ -1,0 +1,730 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/phuwadon/ontologies/2022/1/untitled-ontology-20"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/phuwadon/ontologies/2022/1/untitled-ontology-20">
+    <Prefix name="" IRI="http://www.semanticweb.org/phuwadon/ontologies/2022/1/untitled-ontology-20"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Anime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnimeParts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Demographic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Demons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Historical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Josei"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Military"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mixed_media"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Music"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Police"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Samurai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seinen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shoujo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shounen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Studio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Super_Power"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Themse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vampire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#novel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#original"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDemographic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStudio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasThemes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Akebi-chan_no_Sailor-fuku"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arifureta_Shokugyou_de_Sekai_Saikyou_2nd_Season"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Baraou_no_Souretsu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fantasy_Bishoujo_Juniku_Ojisan_to"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Genjitsu_Shugi_Yuusha_no_Oukoku_Saikenki_Part_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hairpin_Double"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Irodorimidori"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kaijin_Kaihatsu-bu_no_Kuroitsu-san"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Karakai_Jouzu_no_Takagi-san_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kenja_no_Deshi_wo_Nanoru_Kenja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Koroshi_Ai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leadale_no_Daichi_nite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Orient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sabikui_Bisco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sasaki_to_Miyano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shenmue_the_Animation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shikkakumon_no_Saikyou_Kenja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slow_Loop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sono_Bisque_Doll_wa_Koi_wo_Suru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teikou_Penguin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tensai_Ouji_no_Akaji_Kokka_Saisei_Jutsu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tokyo_24-ku"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tribe_Nine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vanitas_no_Karte_Part_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yami_Shibai_10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atasha_Kawajiri_Kodama_Da_yo:_Dangerous_Lifehacker_no_Tadareta_Seikatsu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cue!"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Delicious_Party♡Precure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dolls&apos;_Frontline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Futsal_Boys!!!!!"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Garugaku._II:_Lucky_Stars"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gensou_Sangokushi:_Tengen_Reishinki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hakozume:_Kouban_Joshi_no_Gyakushuu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kimetsu_no_Yaiba:_Yuukaku-hen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ninjala_(TV)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#On_Air_Dekinai!"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Princess_Connect!_Re:Dive_Season_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ryman&apos;s_Club"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sabiiro_no_Armor:_Reimei"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saiyuuki_Reload:_Zeroin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shingeki_no_Kyojin:_The_Final_Season_Part_2"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Demographic"/>
+        <Class IRI="#AnimeParts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Demons"/>
+        <Class IRI="#Themse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harem"/>
+        <Class IRI="#Themse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Historical"/>
+        <Class IRI="#Themse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Josei"/>
+        <Class IRI="#Demographic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manga"/>
+        <Class IRI="#Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Military"/>
+        <Class IRI="#Themse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mixed_media"/>
+        <Class IRI="#Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Music"/>
+        <Class IRI="#Themse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Police"/>
+        <Class IRI="#Themse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Samurai"/>
+        <Class IRI="#Themse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#School"/>
+        <Class IRI="#Themse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seinen"/>
+        <Class IRI="#Demographic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shoujo"/>
+        <Class IRI="#Demographic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shounen"/>
+        <Class IRI="#Demographic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Source"/>
+        <Class IRI="#AnimeParts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Studio"/>
+        <Class IRI="#AnimeParts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Super_Power"/>
+        <Class IRI="#Themse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Themse"/>
+        <Class IRI="#AnimeParts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vampire"/>
+        <Class IRI="#Themse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#game"/>
+        <Class IRI="#Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#novel"/>
+        <Class IRI="#Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#original"/>
+        <Class IRI="#Source"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Akebi-chan_no_Sailor-fuku"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Arifureta_Shokugyou_de_Sekai_Saikyou_2nd_Season"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Baraou_no_Souretsu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Fantasy_Bishoujo_Juniku_Ojisan_to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Genjitsu_Shugi_Yuusha_no_Oukoku_Saikenki_Part_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Hairpin_Double"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Irodorimidori"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Kaijin_Kaihatsu-bu_no_Kuroitsu-san"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Karakai_Jouzu_no_Takagi-san_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Kenja_no_Deshi_wo_Nanoru_Kenja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Koroshi_Ai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Leadale_no_Daichi_nite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Orient"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Sabikui_Bisco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Sasaki_to_Miyano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Shenmue_the_Animation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Shikkakumon_no_Saikyou_Kenja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Slow_Loop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Sono_Bisque_Doll_wa_Koi_wo_Suru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Teikou_Penguin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Tensai_Ouji_no_Akaji_Kokka_Saisei_Jutsu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Tokyo_24-ku"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Tribe_Nine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Vanitas_no_Karte_Part_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Yami_Shibai_10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Atasha_Kawajiri_Kodama_Da_yo:_Dangerous_Lifehacker_no_Tadareta_Seikatsu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Cue!"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Delicious_Party♡Precure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Dolls&apos;_Frontline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Futsal_Boys!!!!!"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Garugaku._II:_Lucky_Stars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Gensou_Sangokushi:_Tengen_Reishinki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Hakozume:_Kouban_Joshi_no_Gyakushuu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Kimetsu_no_Yaiba:_Yuukaku-hen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Ninjala_(TV)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#On_Air_Dekinai!"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Princess_Connect!_Re:Dive_Season_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Ryman&apos;s_Club"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Sabiiro_no_Armor:_Reimei"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Saiyuuki_Reload:_Zeroin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anime"/>
+        <NamedIndividual IRI="#Shingeki_no_Kyojin:_The_Final_Season_Part_2"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <Class IRI="#Anime"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSource"/>
+        <Class IRI="#Anime"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStudio"/>
+        <Class IRI="#Anime"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasThemes"/>
+        <Class IRI="#Anime"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTitle"/>
+        <Class IRI="#Anime"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <Class IRI="#Demographic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSource"/>
+        <Class IRI="#Source"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStudio"/>
+        <Class IRI="#Studio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasThemes"/>
+        <Class IRI="#Themse"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Akebi-chan_no_Sailor-fuku</IRI>
+        <Literal>Akebi-chan no Sailor-fuku</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Arifureta_Shokugyou_de_Sekai_Saikyou_2nd_Season</IRI>
+        <Literal>Arifureta Shokugyou de Sekai Saikyou 2nd Season</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Baraou_no_Souretsu</IRI>
+        <Literal>Baraou no Souretsu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fantasy_Bishoujo_Juniku_Ojisan_to</IRI>
+        <Literal>Fantasy Bishoujo Juniku Ojisan to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genjitsu_Shugi_Yuusha_no_Oukoku_Saikenki_Part_2</IRI>
+        <Literal>Genjitsu Shugi Yuusha no Oukoku Saikenki Part 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hairpin_Double</IRI>
+        <Literal>Hairpin Double</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Irodorimidori</IRI>
+        <Literal>Irodorimidori</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kaijin_Kaihatsu-bu_no_Kuroitsu-san</IRI>
+        <Literal>Kaijin Kaihatsu-bu no Kuroitsu-san</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Karakai_Jouzu_no_Takagi-san_3</IRI>
+        <Literal>Karakai Jouzu no Takagi-san 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kenja_no_Deshi_wo_Nanoru_Kenja</IRI>
+        <Literal>Kenja no Deshi wo Nanoru Kenja</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Koroshi_Ai</IRI>
+        <Literal>Koroshi Ai</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Leadale_no_Daichi_nite</IRI>
+        <Literal>Leadale no Daichi nite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Orient</IRI>
+        <Literal>Orient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sabikui_Bisco</IRI>
+        <Literal>Sabikui Bisco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sasaki_to_Miyano</IRI>
+        <Literal>Sasaki to Miyano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Shenmue_the_Animation</IRI>
+        <Literal>Shenmue the Animation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Shikkakumon_no_Saikyou_Kenja</IRI>
+        <Literal>Shikkakumon no Saikyou Kenja</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Slow_Loop</IRI>
+        <Literal>Slow Loop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sono_Bisque_Doll_wa_Koi_wo_Suru</IRI>
+        <Literal>Sono Bisque Doll wa Koi wo Suru</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Teikou_Penguin</IRI>
+        <Literal>Teikou Penguin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tensai_Ouji_no_Akaji_Kokka_Saisei_Jutsu</IRI>
+        <Literal>Tensai Ouji no Akaji Kokka Saisei Jutsu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tokyo_24-ku</IRI>
+        <Literal>Tokyo 24-ku</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tribe_Nine</IRI>
+        <Literal>Tribe Nine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Vanitas_no_Karte_Part_2</IRI>
+        <Literal>Vanitas no Karte Part 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Yami_Shibai_10</IRI>
+        <Literal>Yami Shibai 10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Atasha_Kawajiri_Kodama_Da_yo:_Dangerous_Lifehacker_no_Tadareta_Seikatsu</IRI>
+        <Literal>Atasha Kawajiri Kodama Da yo: Dangerous Lifehacker no Tadareta Seikatsu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cue!</IRI>
+        <Literal>Cue!</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Delicious_Party♡Precure</IRI>
+        <Literal>Delicious Party♡Precure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dolls&apos;_Frontline</IRI>
+        <Literal>Dolls&apos; Frontline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Futsal_Boys!!!!!</IRI>
+        <Literal>Futsal Boys!!!!!</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Garugaku._II:_Lucky_Stars</IRI>
+        <Literal>Garugaku. II: Lucky Stars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gensou_Sangokushi:_Tengen_Reishinki</IRI>
+        <Literal>Gensou Sangokushi: Tengen Reishinki</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hakozume:_Kouban_Joshi_no_Gyakushuu</IRI>
+        <Literal>Hakozume: Kouban Joshi no Gyakushuu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kimetsu_no_Yaiba:_Yuukaku-hen</IRI>
+        <Literal>Kimetsu no Yaiba: Yuukaku-hen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ninjala_(TV)</IRI>
+        <Literal>Ninjala (TV)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#On_Air_Dekinai!</IRI>
+        <Literal>On Air Dekinai!</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Princess_Connect!_Re:Dive_Season_2</IRI>
+        <Literal>Princess Connect! Re:Dive Season 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ryman&apos;s_Club</IRI>
+        <Literal>Ryman&apos;s Club</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sabiiro_no_Armor:_Reimei</IRI>
+        <Literal>Sabiiro no Armor: Reimei</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Saiyuuki_Reload:_Zeroin</IRI>
+        <Literal>Saiyuuki Reload: Zeroin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Shingeki_no_Kyojin:_The_Final_Season_Part_2</IRI>
+        <Literal>Shingeki no Kyojin: The Final Season Part 2</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
